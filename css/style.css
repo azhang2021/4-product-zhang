@@ -1,0 +1,100 @@
+.w3-theme-l5 {color:#000 !important; background-color:#fcf8fb !important}
+.w3-theme-l4 {color:#000 !important; background-color:#f6e7f1 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#eecfe4 !important}
+.w3-theme-l2 {color:#000 !important; background-color:#e5b7d6 !important}
+.w3-theme-l1 {color:#000 !important; background-color:#dc9fc9 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#cb6ead !important}
+.w3-theme-d2 {color:#fff !important; background-color:#c1549f !important}
+.w3-theme-d3 {color:#fff !important; background-color:#b2408e !important}
+.w3-theme-d4 {color:#fff !important; background-color:#99377a !important}
+.w3-theme-d5 {color:#fff !important; background-color:#7f2e66 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fcf8fb !important}
+.w3-theme-dark {color:#fff !important; background-color:#7f2e66 !important}
+.w3-theme-action {color:#fff !important; background-color:#7f2e66 !important}
+
+.w3-theme {color:#fff !important; background-color:#d386bb !important}
+.w3-text-theme {color:#d386bb !important}
+.w3-border-theme {border-color:#d386bb !important}
+
+/*sencondary color*/
+.w3-theme2-l5 {color:#000 !important; background-color:#f9fdfa !important}
+.w3-theme2-l4 {color:#000 !important; background-color:#ecf8ef !important}
+.w3-theme2-l3 {color:#000 !important; background-color:#d8f1e0 !important}
+.w3-theme2-l2 {color:#000 !important; background-color:#c5ead0 !important}
+.w3-theme2-l1 {color:#000 !important; background-color:#b1e3c1 !important}
+.w3-theme2-d1 {color:#000 !important; background-color:#82d29b !important}
+.w3-theme2-d2 {color:#fff !important; background-color:#66c885 !important}
+.w3-theme2-d3 {color:#fff !important; background-color:#4abe6f !important}
+.w3-theme2-d4 {color:#fff !important; background-color:#3ca65e !important}
+.w3-theme2-d5 {color:#fff !important; background-color:#328b4e !important}
+
+.w3-theme2-light {color:#000 !important; background-color:#f9fdfa !important}
+.w3-theme2-dark {color:#fff !important; background-color:#328b4e !important}
+.w3-theme2-action {color:#fff !important; background-color:#328b4e !important}
+
+.w3-theme2 {color:#000 !important; background-color:#9fdcb2 !important}
+.w3-text-theme2 {color:#9fdcb2 !important}
+.w3-border-theme {border-color:#9fdcb2 !important}
+
+.w3-hover-theme2:hover {color:#000 !important; background-color:#9fdcb2 !important}
+.w3-hover-text-theme2:hover {color:#9fdcb2 !important}
+.w3-hover-border-theme2:hover {border-color:#9fdcb2 !important}
+.w3-hover-theme2:hover {color:#fff !important; background-color:#d386bb !important}
+.w3-hover-text-theme2:hover {color:#d386bb !important}
+.w3-hover-border-theme2:hover {border-color:#d386bb !important}
+
+.w3-button:hover {
+    color: white;
+    background-color: #dc9fc9 !important
+}
+
+
+/*parallax*/
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('/w3images/parallax1.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("/w3images/parallax2.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("/w3images/parallax3.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+
+/* cards */
+.w3 cards {
+    margin:3%
+}
